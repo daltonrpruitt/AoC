@@ -115,4 +115,6 @@ dmypy.json
 
 */outputs/*
 
+input.txt
+
 test*
