@@ -1,4 +1,3 @@
-import numpy as np
 from utils.inputs import *
 
 inputs = open("input.txt", 'r').read().splitlines()
