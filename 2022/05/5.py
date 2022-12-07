@@ -1,4 +1,4 @@
-# day 4 : 37:15 for me, for both
+# day 5 : 37:15 for me, for both
 from copy import deepcopy
 inputs = open("input.txt", 'r').read().splitlines()
 
