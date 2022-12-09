@@ -131,4 +131,20 @@ print(prods)
 ans = np.max(prods)
 print("Part 2: ",ans)
 
+import matplotlib.pyplot as plt
 
+
+plt.imshow(prods, cmap='hot', interpolation='nearest')
+plt.savefig("scenic_scores.png")
+
+plt.imshow(left_count, cmap='hot', interpolation='nearest')
+plt.savefig("left_count.png")
+
+
+plt.imshow(right_count, cmap='hot', interpolation='nearest')
+plt.savefig("right_count.png")
+
+plt.imshow(up_count, cmap='hot', interpolation='nearest')
+plt.savefig("up_count.png")
+plt.imshow(down_count, cmap='hot', interpolation='nearest')
+plt.savefig("down_count.png")

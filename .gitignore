@@ -118,3 +118,4 @@ dmypy.json
 *input.txt
 
 test*
+*.png
