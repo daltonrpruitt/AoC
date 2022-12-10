@@ -1,4 +1,4 @@
-# day 10 : Over 40m for part 1, 20m for part 2
+# day 10
 
 import numpy as np
 from copy import deepcopy
